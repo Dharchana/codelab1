@@ -5,7 +5,7 @@ void sort_string(char*);
 int main()
 {
    char string[100];
-   printf("Enter some text\n");
+   printf("Enter a string\n");
    gets(string);
    sort_string(string);
    printf("%s\n", string);
